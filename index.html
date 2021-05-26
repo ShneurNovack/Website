@@ -66,6 +66,25 @@
 }
 </style>
 
+    <script>
+        var example = ['A', 'B', 'C', 'D'];
+
+        textSequence(0);
+        function textSequence(i) {
+
+            if (example.length > i) {
+                setTimeout(function() {
+                    document.getElementById("sequence").innerHTML = example[i];
+                    textSequence(++i);
+                }, 1000); // 1 second (in milliseconds)
+
+            } else if (example.length == i) { // Loop
+                textSequence(0);
+            }
+
+        }
+    </script>
+    
     <!--====== Required meta tags ======-->
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -153,6 +172,7 @@
                     <div class="col-xl-8 col-lg-10">
                         <div class="header-content text-center">
                             <img src="https://github.com/ShneurNovack/Website/blob/gh-pages/logo2.png?raw=true" alt="logo" class="logoMain">
+                            <div class="header-title id="sequence"></div>
                             <h3 class="header-title">Web design, brand identity, graphic design, and marketing campaigns</h3>
                             <p class="text">A simple, customizable, and, beautiful SaaS business focused landing page to make your project closer to launch!</p>
                             <ul class="header-btn">
