@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'LineIcons';
   src:  url('https://shneurnovack.github.io/Website/LineIcons.eot?y2l643');
-  src:  url('../fonts/LineIcons.eot?y2l643#iefix') format('embedded-opentype'),
+  src:  url('https://shneurnovack.github.io/Website/LineIcons.eot?y2l643#iefix') format('embedded-opentype'),
     url('https://shneurnovack.github.io/Website/LineIcons.ttf?y2l643') format('truetype'),
     url('https://shneurnovack.github.io/Website/LineIcons.woff?y2l643') format('woff'),
     url('https://shneurnovack.github.io/Website/LineIcons.svg?y2l643#LineIcons') format('svg');
